@@ -91,7 +91,6 @@ pub async fn get_course_detail(app_state: web::Data<AppState>, params: web::Path
 
 
 // Test Suite
-
 #[cfg(test)]
 mod tests {
     use super::*;
